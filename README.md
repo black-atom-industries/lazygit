@@ -33,7 +33,6 @@ Black Atom includes multiple theme collections, each with its own distinct style
 ### Prerequisites
 
 - [Lazygit](https://github.com/jesseduffield/lazygit)
-- [Black Atom Core CLI](https://github.com/black-atom-industries/core) (for generating themes)
 
 ### Finding Your Config Directory
 
@@ -49,20 +48,15 @@ To find your actual config directory:
 lazygit --print-config-dir
 ```
 
-### Setup
+### Download Themes
 
-1. Clone this repository:
+Clone this repository to get all pre-generated theme files:
 
 ```bash
 git clone https://github.com/black-atom-industries/lazygit.git
-cd lazygit
 ```
 
-2. Generate the theme files using Black Atom Core:
-
-```bash
-black-atom-core generate
-```
+The theme files are located in `themes/{collection}/{theme-name}.yml` and are ready to use.
 
 ## Usage
 
@@ -156,6 +150,8 @@ set -ag terminal-overrides ",*:RGB"
 ```
 
 ## Development
+
+For contributing or regenerating themes, you'll need the [Black Atom Core CLI](https://github.com/black-atom-industries/core).
 
 ### Template Structure
 
