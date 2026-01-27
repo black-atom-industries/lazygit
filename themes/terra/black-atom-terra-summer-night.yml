@@ -1,0 +1,29 @@
+# Black Atom — TER ∷ Summer Night
+# Black Atom Industries - Lazygit Theme
+# https://github.com/black-atom-industries
+
+gui:
+  nerdFontsVersion: "3"
+  theme:
+    activeBorderColor:
+      - "#f3b94c"
+      - bold
+    inactiveBorderColor:
+      - "#849581"
+    optionsTextColor:
+      - "#00a5a6"
+    selectedLineBgColor:
+      - "#14342f"
+    cherryPickedCommitBgColor:
+      - "#042824"
+    cherryPickedCommitFgColor:
+      - "#f3b94c"
+    unstagedChangesColor:
+      - "#e2805e"
+    defaultFgColor:
+      - "#eae0cf"
+    searchingActiveBorderColor:
+      - "#f3b94c"
+
+  authorColors:
+    "*": "#d88095"
