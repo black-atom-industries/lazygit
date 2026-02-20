@@ -147,21 +147,17 @@ set -ag terminal-overrides ",*:RGB"
 
 ## Development
 
-### Installing Black Atom Core CLI
+### Generating Themes
 
-To generate themes, you need the Black Atom Core CLI installed:
+Theme files are generated from templates using [Black Atom Core](https://jsr.io/@black-atom/core). You need [Deno](https://deno.land/) installed.
 
 ```bash
-# Clone and enter the core repository
-git clone https://github.com/black-atom-industries/core.git
-cd core
+# Generate all theme files
+deno task generate
 
-# Compile and install the CLI
-deno task cli:compile
-deno task cli:install
+# Or use watch mode for live regeneration
+deno task dev
 ```
-
-This installs the `black-atom-core` binary to `/usr/local/bin`.
 
 ### Template Structure
 
@@ -178,12 +174,12 @@ gui:
     # ...and so on
 ```
 
-### Generating Themes
+### Regenerating Themes
 
 To regenerate all themes from templates:
 
 ```bash
-black-atom-core generate
+deno task generate
 ```
 
 ### Development with Symlinks
