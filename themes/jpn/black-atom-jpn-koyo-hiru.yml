@@ -19,7 +19,7 @@ gui:
     cherryPickedCommitFgColor:
       - "#ed9a00"
     unstagedChangesColor:
-      - "#db6371"
+      - "#f5345e"
     defaultFgColor:
       - "#3a2e3b"
     searchingActiveBorderColor:
